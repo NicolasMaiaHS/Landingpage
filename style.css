@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #080808;
+    color: white;
+
+    font-family: Arial, sans-serif;
+}
+
+
+
+
+header {
+    height: 70px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0 8%;
+
+    border-bottom: 1px solid #222;
+}
+
+header h2 span {
+    color: #00ff66;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin-left: 25px;
+}
+
+nav a:hover {
+    color: #00ff66;
+}
+
+
+
+
+#inicio {
+    min-height: 500px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 50px 8%;
+}
+
+#inicio div {
+    max-width: 600px;
+}
+
+#inicio p:first-child {
+    color: #00ff66;
+}
+
+h1 {
+    font-size: 50px;
+
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #00ff66;
+}
+
+#inicio p {
+    color: #aaa;
+
+    margin-bottom: 25px;
+}
+
+
+
+
+button {
+    background-color: #00ff66;
+    color: black;
+
+    border: none;
+    border-radius: 5px;
+
+    padding: 12px 20px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00cc52;
+}
+
+
+
+
+#produtos {
+    padding: 80px 8%;
+
+    background-color: #0d0d0d;
+}
+
+#produtos > h2 {
+    margin-bottom: 30px;
+}
+
+.produtos {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    background-color: #151515;
+
+    border: 1px solid #292929;
+    border-radius: 8px;
+
+    padding: 25px;
+
+    flex: 1;
+}
+
+.card h3 {
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #999;
+
+    margin-bottom: 20px;
+}
+
+.card strong {
+    display: block;
+
+    color: #00ff66;
+
+    margin-bottom: 20px;
+}
+
+
+
+
+#contato {
+    text-align: center;
+
+    padding: 80px 8%;
+}
+
+#contato h2 {
+    margin-bottom: 20px;
+}
+
+#contato p {
+    color: #aaa;
+
+    margin-bottom: 25px;
+}
+
+
+
+
+footer {
+    text-align: center;
+
+    padding: 25px;
+
+    border-top: 1px solid #222;
+
+    color: #777;
+}
+
+
+
+@media (max-width: 700px) {
+
+    nav {
+        display: none;
+    }
+
+    h1 {
+        font-size: 38px;
+    }
+
+    .produtos {
+        flex-direction: column;
+    }
+
+}
